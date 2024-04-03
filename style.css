@@ -1,0 +1,167 @@
+*{
+ padding: 0;
+    margin: 0 auto;
+}
+
+#container a{
+    font-size: larger;
+    color: rgb(59, 42, 42);
+    text-decoration: none;
+   
+    
+    
+}
+#background {
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    width: 120%;
+    height: 145vh;
+  }
+  
+  #background img{
+    width: 120%;
+    height: 145vh;
+    object-fit: cover;
+  }
+
+    
+  #background::after {
+    content: '';
+    width: inherit;
+    height:  inherit;
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+  
+  } 
+
+
+
+
+
+#container {
+    text-align: center;
+    background-color: rgb(226, 170, 15);
+}
+#imagen {
+    height: 18vh;
+    text-align: center;
+}
+.quem-somos{
+    text-align: center;
+    
+color: rgb(218, 142, 28);
+
+}
+.quem-somos p{
+    
+    color: rgb(255, 255, 255);
+}
+#video{
+
+
+    text-align: center;
+}
+.oque-texto{
+    margin: 100px;
+    
+
+}
+.oque-texto h3{
+    color: rgb(221, 154, 30);
+
+
+
+}
+.oque-texto h2{
+
+    color: chocolate;
+}
+.oque-texto p{
+color: white;
+    
+}
+.oque-texto ul{
+color: rgb(221, 154, 30);
+   
+}
+.cadastro{
+    height: 18vh;
+background-color: rgb(238, 147, 11);
+margin: 40px;
+text-align: center;
+
+
+}
+.cadastro h3{
+text-align: center;
+
+}
+#butao{
+text-align: center;
+    
+}
+#butao button{
+    background-color: rgb(4, 149, 247);
+    line-height: px;
+    width: 150px;
+    color: aliceblue;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 450px){
+    #container a{
+        text-align: center;
+        color: rgb(59, 42, 42);
+        font-size: x-large;
+    }
+.quem-somos{
+
+    font-size: x-large;
+}
+.quem-somos p{
+    color: rgb(255, 255, 255);
+font-size: x-large;
+
+}
+.quem-somos{
+    margin: 100px;
+    
+}
+#imagen img{
+    margin: 30px;
+
+}
+.oque-texto {
+
+    font-size: x-large;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+    
+}
